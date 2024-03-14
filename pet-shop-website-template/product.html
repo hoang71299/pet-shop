@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PET SHOP - Pet Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid border-bottom d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Địa chỉ</h6>
+                        <span>123 Duy Tan, Da Nang, VN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Email VN</h6>
+                        <span>Petshop@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Phone</h6>
+                        <span>+012 345 6789</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 mb-5">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Pet Shop</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Trang Chủ</a>
+                <a href="about.html" class="nav-item nav-link">Đăng Nhập</a>
+                <a href="service.html" class="nav-item nav-link">Dịch Vụ</a>
+                <a href="product.html" class="nav-item nav-link">Danh Sách Mặt Hàng</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Thêm</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Bảng Giá</a>
+                        <a href="team.html" class="dropdown-item">DANH SÁCH NGƯỜI MUA</a>
+                        <a href="testimonial.html" class="dropdown-item">Đánh Giá</a>
+                        <a href="blog.html" class="dropdown-item">BLOG MỚI NHẤT</a>
+                        <a href="detail.html" class="dropdown-item">CHI TIẾT BLOG</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Liên Hệ<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Products Start -->
+     
+    <!doctype html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cửa hàng của tôi</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <style>
+    
+            .product{
+                border:none !important;
+            }
+            .product img{
+                height: 150px;
+                width: auto;
+                margin-bottom: -50px;
+                margin-left: 1rem;
+                transition: 0.5s;
+            }
+            .product:hover img{
+                transform: scale(1.05) rotate(-10deg);
+            }
+            .product .card-title{
+                margin-top: 50px;
+            }
+    
+            .img-in-cart{
+                height: 50px;
+            }
+            .overflow-scroll{
+                overflow: scroll;
+            }
+    
+        </style>
+    </head>
+    <body>
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="">
+                    <div class="row">
+                        <div class="col-8 border-right min-vh-100">
+                            <div class="vh-100 overflow-scroll pr-2">
+                                <div class="d-flex justify-content-between align-items-end mt-3 mb-3 position-sticky bg-white" style="top:0;z-index: 10">
+                                    <div class="">
+                                        <h4 class="text-primary mb-0">Danh sách mặt hàng</h4>
+                                        <small class="text-black-50">Thức ăn và Phụ kiện</small>
+                                        <div class="container">
+                                            <div class="row">
+                                              <div class="col">
+                                                <div class="card" style="width: 20rem;">
+                                          <img class="card-img-top" src="https://www.vietpet.net/wp-content/uploads/2019/01/thuc-an-cho-cho-poodle-moshm.jpg" alt="Card image cap">
+                                          <div class="card-block">
+                                            <h4 class="card-title">Moshm</h4>
+                                            <p class="card-text">Giá: 986.000 VND</p>
+                                            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                          </div>
+                                        </div>
+                                              </div>
+                                              <div class="col">
+                                                <div class="card" style="width: 20rem;">
+                                          <img class="card-img-top" src="https://mkb.vn/wp-content/uploads/2019/01/thuc-an-cho-meo-catidea-ts3-hepatic.jpg"alt="Card image cap">
+                                          <div class="card-block">
+                                            <h4 class="card-title">Hepatic</h4>
+                                            <p class="card-text">Giá: 658.000 VND</p>
+                                            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                          </div>
+                                        </div>
+                                              </div>
+                                              <div class="col">
+                                                <div class="card" style="width: 20rem;">
+                                          <img class="card-img-top" src="https://vn-live-01.slatic.net/p/b66c3a1bfc7e2e2ce5f30d79dffc30b8.jpg" alt="Card image cap">
+                                          <div class="card-block">
+                                            <h4 class="card-title">Cám Sơn Nhật Thành</h4>
+                                            <p class="card-text">Giá: 35.000 VND</p>
+                                            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                          <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://fagopet.vn/uploads/images/62468ae39487f634f84426f8/vong-co-co-chuong.webp" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Vòng cổ chó mèo</h4>
+                                        <p class="card-text">Giá: 99.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://www.petmart.vn/wp-content/uploads/2021/08/balo-dung-cho-meo-phi-hanh-gia-loffe-square-transparent.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Balo chó mèo</h4>
+                                        <p class="card-text">Giá: 100.000.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://pethouse.com.vn/wp-content/uploads/2023/01/long-meo-2904.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Chuồng mèo</h4>
+                                        <p class="card-text">Giá: 350.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://samyangvietnam.com/wp-content/uploads/2023/01/quan-ao-thu-cung.jpg.webp" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Áo quần mèo</h4>
+                                        <p class="card-text">Giá: 87.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>  
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://icdn.dantri.com.vn/2018/4/4/chimcanhtienty-21-15228552245531894033491.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Lồng Chim</h4>
+                                        <p class="card-text">Giá: 950.000.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://megapet.vn/wp-content/uploads/2019/12/Capture-600x569.png" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Bỉm cho chó 1-3kg</h4>
+                                        <p class="card-text">Giá: 350.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://salt.tikicdn.com/cache/w400/ts/product/1d/13/4a/472ddc8513eb86499c31f5392bf3be6c.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Đồ chơi thú cưng</h4>
+                                        <p class="card-text">Giá: 35.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://bizweb.dktcdn.net/100/346/633/files/tronhoa1.jpg?v=1572510917260" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Nệm cho thú cưng</h4>
+                                        <p class="card-text">Giá: 355.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://down-vn.img.susercontent.com/file/44d617cbb76af312768dc3b491d0a9a1" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Khóa chân vẹt</h4>
+                                        <p class="card-text">Giá: 35.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://down-vn.img.susercontent.com/file/c1c9342812ed7a5f87df974bdd4b9dff_tn" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Cóng chim khuyên</h4>
+                                        <p class="card-text">Giá: 35.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://pharmavet.vn/wp-content/uploads/2021/04/thuoc-thu-y-cho-cho-3.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Thuốc cho thú cưng</h4>
+                                        <p class="card-text">Giá: 356.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://cdn-img-v2.webbnc.net/uploadv2/web/18/18181/product/2022/12/14/01/03/1670921673_z3956397081166_aa6c770f54110b7dcce560dcb7d5c5f4.jp.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Sữa tắm cho chó</h4>
+                                        <p class="card-text">Giá: 587.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://bizweb.dktcdn.net/thumb/1024x1024/100/458/454/products/haha-1678959058754.png?v=1692702369857" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Bio-milk</h4>
+                                        <p class="card-text">Giá: 265.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 20rem;">
+                                      <img class="card-img-top" src="https://down-vn.img.susercontent.com/file/985b669e73b438e9da16a7ced1219929" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h4 class="card-title">Lồng chào mào </h4>
+                                        <p class="card-text">Giá: 655.000.000 VND</p>
+                                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                     </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="width: 20rem;">
+                              <img class="card-img-top" src="https://vn-test-11.slatic.net/p/82a28cea778fb0745197894bd1a52305.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h4 class="card-title">Cám bộ ba phép thuật</h4>
+                                <p class="card-text">Giá: 65.000 VND</p>
+                                <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Mua Ngay</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.co    m/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script>
+    
+        let products = [];
+    
+        function toShort(str,max=50){
+    
+            if(str.length > max){
+                return  str.substring(0,max)+"....."
+            }
+    
+            return str;
+    
+        }
+    
+        function toShow(x){
+            $("#products").empty();
+            x.map(product=> {
+                $("#products").append(`
+    
+                <div class="card product pt-4">
+                    <img src="${product.image}" class="card-img-top" alt="">
+                    <div class="card-body border rounded">
+                        <p class="card-title font-weight-bold text-nowrap overflow-hidden text-primary">
+                        ${product.title}
+                        </p>
+                        <small class="text-black-50">
+                        ${toShort(product.description, 120)}
+                        </small>
+                        <div class="d-flex justify-content-between align-items-end mt-3">
+                            <span class="font-weight-bold">${product.price}</span>
+                            <button class="btn btn-sm btn-outline-primary add-to-cart" data-id="${product.id}">
+                            Thêm <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                `)
+            })
+        }
+    
+        // Các hàm xử lý nữa...
+    
+    </script>
+    
+    </body>
+    </html>
+    <!-- Products End -->
+
+
+    <!-- Offer Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-primary text-uppercase">CÁC SẢN PHẨM</h6>
+                <h1 class="display-5 text-uppercase mb-0">Sản Phẩm Bán Chạy</h1>
+            </div>
+            <div class="owl-carousel product-carousel">
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/product-1.png" alt="">
+                        <h6 class="text-uppercase">Thức ăn cho chim</h6>
+                        <h5 class="text-primary mb-0">199.000 VND</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/product-2.png" alt="">
+                        <h6 class="text-uppercase">Thức Ăn cho mèo</h6>
+                        <h5 class="text-primary mb-0">139.00 VND</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/product-3.png" alt="">
+                        <h6 class="text-uppercase">Thức ăn cho chó</h6>
+                        <h5 class="text-primary mb-0">159.000 VND</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/product-4.png" alt="">
+                        <h6 class="text-uppercase">Thức ăn nhẹ </h6>
+                        <h5 class="text-primary mb-0">199.000 VND</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-5">
+                    <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        <img class="img-fluid mb-4" src="img/product-2.png" alt="">
+                        <h6 class="text-uppercase">Thức ăn khô cho mèo</h6>
+                        <h5 class="text-primary mb-0">399.000 .VND</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Offer End -->
+
+
+    <!-- Pricing Plan Start -->
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://www.vietpet.net/wp-content/uploads/2019/01/thuc-an-cho-cho-poodle-moshm.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Moshm</h4>
+        <p class="card-text">Price: 986.000 VND</p>
+        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Tiến Hành Thanh Toán</a>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://mkb.vn/wp-content/uploads/2019/01/thuc-an-cho-meo-catidea-ts3-hepatic.jpg"alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Hepatic</h4>
+        <p class="card-text">Price: 658.000 VND</p>
+        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Tiến Hành Thanh Toán</a>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://vn-live-01.slatic.net/p/b66c3a1bfc7e2e2ce5f30d79dffc30b8.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Cám Sơn Nhật Thành</h4>
+        <p class="card-text">Price: 35.000 VND</p>
+        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Tiến Hành Thanh Toán</a>
+      </div>
+    </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Pricing Plan End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Liên lạc</h5>
+                    <p class="mb-4">Chó là người bạn tuyệt vời, chúng luôn đồng hành với chúng ta, dù vui hay buồn, đặc biệt là không bao giờ bỏ rơi ra cho tới khi chúng chút hơi thở cuối cùng.</p>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Duy tân, Da Nang, VN</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>PetShop@example.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Trang chủ</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Về chúng tôi </a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Hệ thống</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Team</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog mới nhất</a>
+                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Liên hệ</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Trang chủ</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Về chúng tôi </a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Hệ thống</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Team</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Blog mới nhất</a>
+                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Liên hệ</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Your Email">
+                            <button class="btn btn-primary">Sign Up</button>
+                        </div>
+                    </form>
+                    <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-body">
+                    <a class="text-body" href="">Terms & Conditions</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Privacy Policy</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Customer Support</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Payments</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Help</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
